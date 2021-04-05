@@ -13,7 +13,7 @@ class Spot:
         self.x = row * width
         self.y = col * width
 
-        self.color = Colors.PURPLE
+        self.color = Colors.TURQUOISE
         self.neighbors = []
 
     def get_pos(self):
