@@ -13,7 +13,7 @@ class Spot:
         self.x = row * width
         self.y = col * width
 
-        self.color = Colors.ORANGE
+        self.color = Colors.PURPLE
         self.neighbors = []
 
     def get_pos(self):
@@ -23,7 +23,7 @@ class Spot:
         return self.color == Colors.BLACK
 
     def is_visited(self):
-        return self.color == Colors.TURQUOISE
+        return self.color == Colors.WHITE
 
     def reset(self):
         self.color = Colors.WHITE
@@ -32,7 +32,7 @@ class Spot:
         self.color = Colors.BLACK
 
     def make_current(self):
-        self.color = Colors.TURQUOISE
+        self.color = Colors.ORANGE
 
     def draw(self, window):
         pygame.draw.rect(window, self.color, (self.x, self.y, self.width, self.width))

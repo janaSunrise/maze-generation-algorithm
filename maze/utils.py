@@ -13,13 +13,11 @@ def make_grid(gap, width):
 
 def draw_grid(window, gap, width):
     for i in range(0, width, gap):
-        pygame.draw.line(window, Colors.GREY, (0, i), (width, i))
-        pygame.draw.line(window, Colors.GREY, (i, 0), (i, width))
+        pygame.draw.line(window, Colors.BLACK, (0, i), (width, i))
+        pygame.draw.line(window, Colors.BLACK, (i, 0), (i, width))
 
 
 def draw(window, grid, gap, width):
-    window.fill(Colors.WHITE)
-
     for row in grid:
         for spot in row:
             spot.draw(window)
