@@ -10,7 +10,6 @@ WINDOW = pygame.display.set_mode((SIDE, SIDE))
 pygame.display.set_caption("Maze generation visualization")
 
 if __name__ == '__main__':
-    grid = make_maze(WINDOW, SIDE, GAP)
     run = True
 
     while run:
@@ -18,4 +17,7 @@ if __name__ == '__main__':
             if event.type == pygame.QUIT:
                 run = False
 
-        draw(WINDOW, grid, GAP, SIDE)
+            if event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_SPACE:
+                    grid = make_maze(WINDOW, SIDE, GAP)
+                    draw(WINDOW, grid, GAP, SIDE)

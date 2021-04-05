@@ -3,6 +3,12 @@
 An implementation of [Maze generation algorithm](https://en.wikipedia.org/wiki/Maze_generation_algorithm)
 in python using the game and GUI framework pygame.
 
+## Running Demo
+
+Here's a Demo on how it works
+
+![alt text](https://github.com/janaSunrise/maze-generation-algorithm/blob/main/resources/maze.gif)
+
 ## Install
 
 The project uses pipenv for dependencies. Here's how to install the dependencies.
@@ -14,7 +20,7 @@ pipenv sync -d
 ## Usage
 
 This project has run steps configured using pipenv. Use the following command to
-get the maze generation visualization!
+get the maze generation visualization! Once ready, Hit the spacebar for the generation!
 
 ```sh
 pipenv run start
