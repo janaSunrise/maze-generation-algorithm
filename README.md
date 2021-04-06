@@ -37,8 +37,7 @@ making the commit message.
 
 ## 💬 Get in touch
 
-If you have various suggestions, questions or want to discuss things wit our community, Have a look at
-[Github discussions](https://github.com/janaSunrise/useful-python-snippets/discussions) or join our discord server!
+If you have various suggestions, questions or want to discuss things wit our community, Join our discord server!
 
 [![Discord](https://discordapp.com/api/guilds/695008516590534758/widget.png?style=shield)](https://discord.gg/cSC5ZZwYGQ)
 
