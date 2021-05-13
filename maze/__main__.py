@@ -29,6 +29,6 @@ class Game:
                         self.make_and_draw_maze()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     game = Game()
     game.update_screen()

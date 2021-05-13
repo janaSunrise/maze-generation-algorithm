@@ -40,13 +40,19 @@ class Spot:
     def check_neighbors(self, grid):
         self.neighbors = []
 
-        if self.row < self.total_rows - 2 and not grid[self.row + 2][self.col].is_visited():
+        if (
+            self.row < self.total_rows - 2
+            and not grid[self.row + 2][self.col].is_visited()
+        ):
             self.neighbors.append(grid[self.row + 2][self.col])
 
         if self.row > 1 and not grid[self.row - 2][self.col].is_visited():
             self.neighbors.append(grid[self.row - 2][self.col])
 
-        if self.col < self.total_rows - 2 and not grid[self.row][self.col + 2].is_visited():
+        if (
+            self.col < self.total_rows - 2
+            and not grid[self.row][self.col + 2].is_visited()
+        ):
             self.neighbors.append(grid[self.row][self.col + 2])
 
         if self.col > 1 and not grid[self.row][self.col - 2].is_visited():
