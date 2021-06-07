@@ -7,7 +7,7 @@ in python using the game and GUI framework pygame.
 
 Here's a Demo on how it works
 
-![alt text](https://github.com/janaSunrise/maze-generation-algorithm/blob/main/resources/maze.gif)
+![The Maze demo](https://github.com/janaSunrise/maze-generation-algorithm/blob/main/resources/maze.gif)
 
 ## Install
 
@@ -34,12 +34,6 @@ a PR to this repo and it will be deployed once it's accepted.
 ⚠️ It’s good to have descriptive commit messages, or PR titles so that other contributors can understand about your 
 commit or the PR Created. Read [conventional commits](https://www.conventionalcommits.org/en/v1.0.0-beta.3/) before 
 making the commit message.
-
-## 💬 Get in touch
-
-If you have various suggestions, questions or want to discuss things wit our community, Join our discord server!
-
-[![Discord](https://discordapp.com/api/guilds/695008516590534758/widget.png?style=shield)](https://discord.gg/cSC5ZZwYGQ)
 
 ## Show your support
 
