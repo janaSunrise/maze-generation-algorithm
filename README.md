@@ -9,9 +9,12 @@ Here's a Demo on how it works
 
 ![The Maze demo](https://github.com/janaSunrise/maze-generation-algorithm/blob/main/resources/maze.gif)
 
-## Install
+## Installation
 
-The project uses pipenv for dependencies. Here's how to install the dependencies.
+The project uses pipenv for dependencies. If you don't have it yet, Use `pip install pipenv`
+to install `pipenv`.
+
+Here's how to install the dependencies.
 
 ```sh
 pipenv sync -d
@@ -20,7 +23,10 @@ pipenv sync -d
 ## Usage
 
 This project has run steps configured using pipenv. Use the following command to
-get the maze generation visualization! Once ready, Hit the spacebar for the generation!
+get the maze generation visualization! 
+
+Once ready, Hit the spacebar for the generation! You can also keep hitting
+spacebar for generating further when one ends.
 
 ```sh
 pipenv run start
